@@ -1,0 +1,153 @@
+body {
+    font-family:'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+@media screen and (max-width: 992px) {
+ .container{
+    width: 40%;
+
+ }
+ .card{
+    width: 40%;
+ }
+    }
+.card {
+    background-color: hsl(212, 20%, 17%);
+    border-radius:30px;
+    width: 400px;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.container {
+    background-color: hsl(212, 20%, 17%);
+    border-radius:30px;
+    width: 400px;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.star {
+  width: 45px;
+  padding-left: 25px;
+  padding-bottom: 35px;
+  padding-top: 15px;
+
+}   
+
+
+
+.title {
+    font-weight:800;
+    padding: 14px;
+    color: white;
+    font-size: 25px;
+    margin: -65px;
+
+}
+
+.card-text {
+    color: hsl(216, 12%, 54%);
+    padding-left: 25px;
+}
+.butt {
+    background-color:  hsl(215, 30%, 25%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color:hsl(216, 12%, 54%);
+    margin-left: 35px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+.butt:hover {
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+}
+.butt:focus {
+    background-color:orange;
+  }
+
+#bt-one {
+    background-color:  hsl(215, 30%, 25%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color:hsl(216, 12%, 54%);
+    margin-left: 25px;
+    border: none;
+    cursor: pointer;
+}
+#bt-one:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+#bt-one:focus {
+    background-color: orange;
+  }
+#bt-five {
+    background-color:  hsl(215, 30%, 25%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color:hsl(216, 12%, 54%);
+    margin-left: 25px;
+    border: none;
+    cursor: pointer;
+}
+#bt-five:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+#bt-five:focus {
+    background-color:orange;
+  }
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 18px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    width:  350px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.submit:focus{
+    background-color: white;
+    color: orange;
+}
+#tel {
+    padding: 25px;
+    margin-left: 85px;
+}
+.circulo {
+    border-radius: 18px;
+    background-color:hsl(215, 30%, 25%);
+    color: orange;
+    padding: 10px;
+    margin :115px;
+    display: inline;
+    font-size: 13px;
+}
+.thanks {
+    color: white;
+    margin-left: 120px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.text {
+    color: hsl(216, 12%, 54%);
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.hidden {
+    display:none;
+}
