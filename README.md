@@ -1,1 +1,1 @@
-# Interactive-rating-component-item-de-avalia-o-interativo-challenge
+Interactive rating component challenge (desafio de item de avaliação interativo)
